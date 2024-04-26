@@ -1,0 +1,241 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ko' Physical Memory: 8067 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/hub/Unity/Project_Ship/Project_Ship
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+57514
+Successfully changed project path to: D:/hub/Unity/Project_Ship/Project_Ship
+D:/hub/Unity/Project_Ship/Project_Ship
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 272.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.8f1 (b30333d56e81)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/hub/Unity/Project_Ship/Project_Ship/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Vendor:   NVIDIA
+    VRAM:     4019 MB
+    Driver:   31.0.15.2849
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56816
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.028353 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 99.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.036 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1037ms)
+		BeginReloadAssembly (158ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (683ms)
+			LoadAssemblies (153ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (162ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (400ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (86ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (100ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (134ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010557 seconds.
+Android Extension - Scanning For ADB Devices 6026 ms
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\hub\Unity\Project_Ship\Project_Ship\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\hub\Unity\Project_Ship\Project_Ship\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.750 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3751ms)
+		BeginReloadAssembly (414ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (3025ms)
+			LoadAssemblies (1942ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (401ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (688ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (401ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (41ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (55.3 KB). Loaded Objects now: 3838.
+Memory consumption went from 120.4 MB to 120.3 MB.
+Total: 8.433500 ms (FindLiveObjects: 0.668700 ms CreateObjectMapping: 0.525800 ms MarkObjects: 7.117000 ms  DeleteObjects: 0.120500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1342914.007842 seconds.
+  path: Assets/Free Low Poly Airplane - Ships/Demo Scene/Ground Material.mat
+  artifactKey: Guid(76b09fd7b1a1ce04f91d59891bd6f7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Airplane - Ships/Demo Scene/Ground Material.mat using Guid(76b09fd7b1a1ce04f91d59891bd6f7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa0f9a585dcb80b6f8217b69da05599') in 0.507309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.710781 seconds.
+  path: Assets/Free Low Poly Airplane - Ships/Models/Ballon_1.fbx
+  artifactKey: Guid(edf6905324e61a5459954951644d99ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Airplane - Ships/Models/Ballon_1.fbx using Guid(edf6905324e61a5459954951644d99ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874f58d78d9e61fb97697965105d1559') in 0.439705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Free Low Poly Airplane - Ships/Models/Helicopter_A2.fbx
+  artifactKey: Guid(2587b6a6a7a022448a258858d24055f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Airplane - Ships/Models/Helicopter_A2.fbx using Guid(2587b6a6a7a022448a258858d24055f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f362383ce6c004f57aaf9bf77021d8') in 0.077019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Free Low Poly Airplane - Ships/Models/Helicopter_A1.fbx
+  artifactKey: Guid(368e52e8a26547b43bb7a6c8f55e37ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Airplane - Ships/Models/Helicopter_A1.fbx using Guid(368e52e8a26547b43bb7a6c8f55e37ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f1b6c6dc165d3401da085308dead3b') in 0.124249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Free Low Poly Airplane - Ships/Models/Ship_A13.fbx
+  artifactKey: Guid(412b3bde81bf5b24dbe50a49bcc4e1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Airplane - Ships/Models/Ship_A13.fbx using Guid(412b3bde81bf5b24dbe50a49bcc4e1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d462e3d8f48e07e6928a95e7712df65') in 0.091269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Free Low Poly Airplane - Ships/Models/Ship_A14.fbx
+  artifactKey: Guid(1ecfb652bb312ee429aadd479acb2f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Airplane - Ships/Models/Ship_A14.fbx using Guid(1ecfb652bb312ee429aadd479acb2f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7139db1cd47fdad66ceec3eeb49875c3') in 0.081897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Free Low Poly Airplane - Ships/Models/Warship_1.fbx
+  artifactKey: Guid(70e9a7da158cdd341a21bacfe0142a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Airplane - Ships/Models/Warship_1.fbx using Guid(70e9a7da158cdd341a21bacfe0142a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eae38e9346a8a792e0f8a5deb2ef274') in 0.182710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Free Low Poly Airplane - Ships/Models/Plane_B26.fbx
+  artifactKey: Guid(73108a82b866f9a4081458365f39c96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Airplane - Ships/Models/Plane_B26.fbx using Guid(73108a82b866f9a4081458365f39c96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc8017e6d355bbc09d0f19090530db5') in 0.066824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.596741 seconds.
+  path: Assets/Free Low Poly Airplane - Ships/Pefabs/Ballon_1.prefab
+  artifactKey: Guid(677267944c8e7a04d847e3265b1bfbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Airplane - Ships/Pefabs/Ballon_1.prefab using Guid(677267944c8e7a04d847e3265b1bfbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa0ec4defb798aa9548abfc8a9e2bf7') in 0.364835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Free Low Poly Airplane - Ships/Pefabs/Ship_A14.prefab
+  artifactKey: Guid(4eee4f6f2c29a5d4e8afcd27cfb4e0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Airplane - Ships/Pefabs/Ship_A14.prefab using Guid(4eee4f6f2c29a5d4e8afcd27cfb4e0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b310da3fea9a1532c7615af4f6614eaf') in 0.033001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Free Low Poly Airplane - Ships/Pefabs/Ship_A13.prefab
+  artifactKey: Guid(da5608f043487cf4292cc71b79d37135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Airplane - Ships/Pefabs/Ship_A13.prefab using Guid(da5608f043487cf4292cc71b79d37135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcfb380588be94fbe135363e325b4fa1') in 0.035246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Free Low Poly Airplane - Ships/Pefabs/Warship_1.prefab
+  artifactKey: Guid(1f707bf4e43090d498a9422f3880a49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Airplane - Ships/Pefabs/Warship_1.prefab using Guid(1f707bf4e43090d498a9422f3880a49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a184379d8a5df5de8fabb6ecc4ab33f4') in 0.052845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Free Low Poly Airplane - Ships/Pefabs/Helicopter_A1.prefab
+  artifactKey: Guid(273023b3a78e1a24f831529ddf906efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Airplane - Ships/Pefabs/Helicopter_A1.prefab using Guid(273023b3a78e1a24f831529ddf906efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27754e51e54da6ca733d185ecb6adbc0') in 0.035003 seconds 
