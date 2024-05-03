@@ -47,6 +47,7 @@ public class PlayerMovement : LivingEntity
     {
         moveVec = new Vector3(hAxis, 0, vAxis).normalized;
         transform.position += moveVec * moveSpeed * Time.deltaTime;
+        transform.LookAt(transform.position + moveVec);
     }
 
     protected override void OnEable()
